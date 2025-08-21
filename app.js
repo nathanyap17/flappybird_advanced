@@ -144,8 +144,19 @@ function create() {
     backgroundColor: '#444',
     padding: { x: 25, y: 12 }
   }).setOrigin(0.5).setInteractive();
-  restartBtn.on('pointerdown', () => { this.scene.restart(); });
-  quitBtn.on('pointerdown', () => { window.location.reload(); });
+  restartBtn.on('pointerdown', () => { 
+    const currentHighScore = localStorage.getItem('flappyHighScore');
+    this.scene.restart();
+    if (currentHighScore) {
+      localStorage.setItem('flappyHighScore', currentHighScore);
+    }
+    console.log('Game restarted - High score retained');
+  });
+  quitBtn.on('pointerdown', () => { 
+    localStorage.removeItem('flappyHighScore'); // Clear high score
+    window.location.reload();
+    console.log('Game quit - High score reset');
+  });
   this.gameOverOverlay.add([overlayBg, gameOverText, restartBtn, quitBtn]);
 
   // Pause overlay
@@ -531,9 +542,14 @@ function update() {
         this.handleGameOver(reason);
       }
       
-      if (this.restartKey.isDown) {
+      if (this.restartKey.isDown && (this.hasLanded || this.hasBumped)) {
+        // Keep the high score in localStorage when restarting
+        const currentHighScore = localStorage.getItem('flappyHighScore');
         this.scene.restart();
-        console.log('Game restarted');
+        if (currentHighScore) {
+          localStorage.setItem('flappyHighScore', currentHighScore);
+        }
+        console.log('Game restarted - High score retained');
       }
     }
     return;
