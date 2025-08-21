@@ -1,5 +1,10 @@
 # 🐦 Flappy Bird Clone – Enhanced Edition
 
+[![Demo](https://img.shields.io/badge/Demo-OpenBayes贝式-brightgreen)](https://openbayes.com/)
+[![Framework](https://img.shields.io/badge/Phaser-3-blueviolet)](https://phaser.io/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-black)](https://github.com/your-username/flappy-bird-enhanced)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](https://opensource.org/licenses/MIT)
+
 An **interactive, feature-rich clone** of the classic *Flappy Bird* game built with **Phaser 3**.  
 This project takes the original endless-flapping mechanic and elevates it with dynamic systems, visual feedback, achievements, and modern gameplay elements — delivering a more **immersive and stimulating** experience.  
 
