@@ -2,7 +2,7 @@
 
 [![Demo](https://img.shields.io/badge/Demo-Vercel-red)](https://flappybird-advanced.vercel.app/)
 [![Framework](https://img.shields.io/badge/Phaser-3-blueviolet)](https://phaser.io/)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-green)](https://github.com/nathanyap17/flappy-bird-enhanced)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-green)](https://github.com/nathanyap17/flappybird_advanced)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](https://github.com/nathanyap17/flappybird_advanced?tab=MIT-1-ov-file)
 
 An **interactive, feature-rich clone** of the classic *Flappy Bird* game built with **Phaser 3**.  
