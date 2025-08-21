@@ -1,6 +1,6 @@
 # 🐦 Flappy Bird Clone – Enhanced Edition
 
-[![Demo](https://img.shields.io/badge/Demo-Vercel)](https://flappybird-advanced.vercel.app/)
+[![Demo](https://img.shields.io/badge/Demo-Vercel-red)](https://flappybird-advanced.vercel.app/)
 [![Framework](https://img.shields.io/badge/Phaser-3-blueviolet)](https://phaser.io/)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-black)](https://github.com/nathanyap17/flappy-bird-enhanced)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](https://opensource.org/licenses/MIT)
