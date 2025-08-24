@@ -4,7 +4,7 @@
  * Features: Random gap positions, static horizontal columns, score/high score, bird animation,
  * day/night cycle, weather effects, power-ups (with intro), achievements, shield graphics,
  * pause/resume overlay, and improved game-over with reason display.
- * A standalone JavaScript exercise for Codédex React Valley portfolio.
+ * A standalone JavaScript Final Project for Codédex Origin III: JavaScript portfolio.
  */
 
 function preload() {
